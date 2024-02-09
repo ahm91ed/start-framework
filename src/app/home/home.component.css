@@ -1,0 +1,62 @@
+
+.homeSection
+{
+    background-color: #1ABC9C;
+    min-height: 60vh;
+    margin-top: 5rem;
+    
+
+}
+
+.homeImg
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.homeSection h1
+{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.starbreak
+{
+    position: relative;
+
+}
+
+.starbreak::before
+{
+    content: '';
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    right: 120%;
+    width: 70px;
+    height: 5px;
+}
+
+
+.starbreak::after
+{
+    content: '';
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 120%;
+    width: 70px;
+    height: 5px;
+}
+
+
+.homeSection p
+
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+}

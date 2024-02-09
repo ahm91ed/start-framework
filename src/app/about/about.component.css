@@ -1,0 +1,43 @@
+.aboutSection {
+  background-color: #1abc9c;
+  margin-top: 5rem;
+  min-height: 60vh;
+}
+
+.aboutText
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.starbreak {
+  position: relative;
+  color: white;
+}
+
+.starbreak::before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  right: 120%;
+  width: 70px;
+  height: 5px;
+}
+
+.starbreak::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  left: 120%;
+  width: 70px;
+  height: 5px;
+}
+
+.aboutArticles {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
